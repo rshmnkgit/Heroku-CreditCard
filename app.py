@@ -6,6 +6,7 @@
 from flask import Flask, render_template
 from config import username, passowrd
 import pandas as pd
+import requests
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy import create_engine, inspect
